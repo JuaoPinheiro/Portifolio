@@ -242,6 +242,27 @@
   height: 200px;
 }
 
+.jordan{
+  width: 100%;
+  background: url(./img/icons/js.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.netflix{
+  width: 100%;
+  background: url(./img/icons/net.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.cm2{
+  width: 100%;
+  background: url(./img/icons/cm2.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 
 .project h1 {
   margin-top: 15px;
