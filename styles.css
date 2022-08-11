@@ -249,6 +249,13 @@
   height: 200px;
 }
 
+.project-nike{
+  width: 100%;
+  background: url(./img/icons/nike.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 .netflix{
   width: 100%;
   background: url(./img/icons/net.png);
