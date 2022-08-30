@@ -33,7 +33,9 @@
   padding: 30px 0;
 }
 #header h1 {
-  color: #f9f9f9;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   cursor: pointer;
   font-size: 1.5em;
 }
@@ -42,13 +44,15 @@
   gap: 40px;
 }
 .header-menu li a {
-  color: #828282;
+  color: #6610f2;
   transition: 0.3s ease all;
   cursor: pointer;
   padding: 10px;
 }
 .header-menu li a:hover {
-  color: #f9f9f9;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #intro {
   grid-area: intro;
@@ -80,9 +84,12 @@
 }
 
 .intro-buttons .download {
-  color: #171717;
+  color: #0000;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 10px 20px;
-  background: #00df5e;
+  
   transition: 0.3s ease all;
 }
 .intro-buttons .download:hover {
@@ -95,8 +102,8 @@
   transition: 0.3s ease all;
 }
 .intro-buttons .contact:hover {
-  border-color: #00df5e;
-  color: #00df5e;
+  border-color:#6610f2;
+  color: #6610f2;
 }
 .intro-img {
   width: 100%;
@@ -105,6 +112,7 @@
 }
 .intro-img .illustration {
   width: 100%;
+  border-radius: 5px;
 }
 #about {
   grid-area: about;
@@ -123,7 +131,9 @@
 .projects-title,
 #services h1,
 #skills h1 {
-  color: #f9f9f9;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2.3em;
 }
 .about-content p {
@@ -156,14 +166,14 @@
   color: #f9f9f9;
 }
 .about-icons-icon p {
-  color: #00df5e;
+  color: #00d4ff;
 }
 .about-icons-icon svg {
   width: 40px;
 }
 #iconesAbout {
-  stroke: #00df5e;
-  fill: #00df5e;
+  stroke: #00d4ff;
+  fill: #00d4ff;
   width: 20px;
 }
 
@@ -318,13 +328,13 @@
 }
 .service p {
   font-size: 2em;
-  color: #828282;
+  color: #6610f2;
   width: 120px;
   padding-top: 20px;
 }
 .service:hover,
 .project:hover {
-  border-color: #00df5e;
+  border-color: #6610f2;
   transform: scale(1);
 }
 #skills {
@@ -343,7 +353,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #212121;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   width: 150px;
   text-align: initial;
   padding: 20px 20px 10px 20px;
@@ -351,7 +363,7 @@
 }
 .skill p {
   font-size: 1.2em;
-  color: #00df5e;
+  color: #6610f2;
 }
 
 .footer {
@@ -368,7 +380,9 @@
   color: #828282;
 }
 .footer a {
-  color: #00df5e;
+  background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .js-scroll {
   opacity: 0;
