@@ -256,6 +256,13 @@
   height: 200px;
 }
 
+.project-todo{
+  width: 100%;
+  background: url(./img/icons/bgtodo.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 .netflix{
   width: 100%;
   background: url(./img/icons/net.png);
