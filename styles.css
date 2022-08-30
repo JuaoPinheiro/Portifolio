@@ -11,7 +11,7 @@
 
 #global {
   width: 100%;
-  background: #09091d;
+  background: #13131c;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-areas:
@@ -63,7 +63,9 @@
   gap: 20px;
 }
 .intro-apresentation h1 {
-  color: #f9f9f9;
+   background: -webkit-linear-gradient(#6610f2, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 5em;
   width: 600px;
 }
