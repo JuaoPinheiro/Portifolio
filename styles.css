@@ -11,7 +11,7 @@
 
 #global {
   width: 100%;
-  background: #1e1f38;
+  background: #131322;
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
   grid-template-areas:
