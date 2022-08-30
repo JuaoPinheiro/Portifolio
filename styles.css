@@ -263,6 +263,20 @@
   height: 200px;
 }
 
+.adidas{
+  width: 100%;
+  background: url(./img/icons/bgadidas.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.financeiro{
+  width: 100%;
+  background: url(./img/icons/bgfinanceiro.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
 .cm2{
   width: 100%;
   background: url(./img/icons/cm2.png);
