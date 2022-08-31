@@ -109,7 +109,7 @@
 }
 .intro-img .illustration {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 #about {
   grid-area: about;
@@ -328,6 +328,10 @@
   color: #f9f9f9;
   width: 120px;
   padding-top: 20px;
+}
+
+.service img {
+  background: #00d4ff;
 }
 
 .service:hover,
